@@ -1,0 +1,8 @@
+package Codingtest;
+
+public class Movie_info extends Movie {
+
+	public Movie_info() {
+		
+	}
+}

@@ -1,0 +1,34 @@
+package Java12_10;
+import java.util.Scanner;
+import java.util.Random;
+public class Baseballgame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean run = true;
+		Scanner sc = new Scanner(System.in);
+		Random rdm = new Random();
+		
+		while(run) {
+		System.out.println("투수가 공을 던집니다");
+		int dice1 = rdm.nextInt(9);
+		System.out.println("1~9 번호를 선택하세요");
+		int p = sc.nextInt();
+		if(p==dice1) {
+			System.out.println("쳤습니다");
+			System.out.println("홈~~~런");
+		}
+		else if(p==dice1-1 || p==dice1+1) {
+			System.out.println("쳤습니다");
+			System.out.println("안타입니다");
+		}
+		else {
+			System.out.println("스윙~ 스트라이크");
+		}
+		
+	}
+		
+		
+	}
+
+}

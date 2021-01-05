@@ -1,0 +1,12 @@
+package Codingtest;
+import java.util.Scanner;
+public class ATM {
+
+	public int output(int tongjang) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("얼마를 뽑으시겠습니까?");
+		int a = sc.nextInt();
+		System.out.println(a+"원을 출금합니다");
+		
+	}
+}

@@ -1,0 +1,13 @@
+package Java12_29;
+import java.util.Scanner;
+public class Atm_class {
+static	int don =0 ;
+	
+	public static void input() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("입금 입니다.");
+		System.out.println("금액을 입력해주세요");
+		int in = sc.nextInt();
+		don += in;
+	}
+}

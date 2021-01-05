@@ -1,0 +1,39 @@
+package Java12_29;
+
+public class User_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		User us = new User();
+		User_scan scan = new User_scan();
+		boolean run = true;
+		boolean run1 = true;
+		System.out.println("아이디를 입력해 주세요. (2~6자리)");
+		
+		while(run) {
+		us.setID(scan.scan());
+		if(us.getID().length()<2 || us.getID().length()>5) {
+			System.out.println("잘못 입력하셨습니다. 2~6자리 아이디를 입력해주세요");
+		}
+		else {
+			run = false;
+		}
+		}
+		
+		System.out.println("이름을 입력해 주세요");
+		
+		while(run1) {
+		us.setNAME(scan.scan());
+		if(us.getNAME().length()>4) {
+			System.out.println("잘못 입력하셨습니다. 4자리 이하의 이름을 입력해주세요.");
+		}
+		else {
+			run1 = false;
+		}
+		}
+	}
+	
+	
+
+}

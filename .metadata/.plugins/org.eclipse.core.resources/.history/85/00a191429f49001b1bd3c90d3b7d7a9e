@@ -1,0 +1,14 @@
+package Java12_29;
+import java.util.Scanner;
+public class User_scan {
+
+	
+	public String scan() {
+		Scanner sc = new Scanner(System.in);
+		String ID;
+		ID = sc.nextLine();
+		return ID;
+		
+	}
+}
+

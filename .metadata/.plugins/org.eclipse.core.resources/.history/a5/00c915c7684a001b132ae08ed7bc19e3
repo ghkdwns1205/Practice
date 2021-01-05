@@ -1,0 +1,25 @@
+package Codingtest;
+
+import java.util.Scanner;
+
+public class Coding_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("몇 개의 숫자를 계산하시겠습니까");
+		
+		int a = sc.nextInt();
+		int [] array = new int[a];
+		int i = 0;
+		while(a==i-1) {
+			
+			array[i] = sc.nextInt();
+			
+			i++;
+		}
+	}
+
+}

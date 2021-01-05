@@ -1,0 +1,21 @@
+package Java12_31;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		C c = new C();
+		
+		System.out.println(c.A); //B에 그냥 String A를 불러오기
+		
+//		c.setA("9876");  // B의 set에 값을 새로 넣어서 
+		System.out.println(c.getA()); // B의 String A를 불러오기
+		System.out.println("2222");
+		c.setA("98765");
+		System.out.println(c.getA());
+		
+		
+	}
+
+}

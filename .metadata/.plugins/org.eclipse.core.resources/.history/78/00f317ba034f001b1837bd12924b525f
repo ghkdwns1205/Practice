@@ -1,0 +1,9 @@
+package Java01_05;
+
+public class Smart_Book {
+
+	private String name;
+	private String number;
+	private String mail;
+	
+}

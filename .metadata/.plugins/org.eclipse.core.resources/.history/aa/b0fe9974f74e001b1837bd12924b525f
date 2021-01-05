@@ -1,0 +1,7 @@
+package ClassArray;
+
+public class B {
+String str;
+int c;
+
+}

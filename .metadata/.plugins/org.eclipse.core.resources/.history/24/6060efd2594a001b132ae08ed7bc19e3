@@ -1,0 +1,7 @@
+package Java12_30;
+
+public class Atm {
+
+	int culsu_don = 100000;
+	int minsu_don = 70000;
+}

@@ -1,0 +1,21 @@
+package Codingtest;
+
+public class Smart {
+
+	
+	public void telelist() {
+		String list[][] = {{"1. 어머니","2. 아버지","3. 동생",
+				"4. 여자친구","5. 친구1","6. 친구2"},{"01012341234"," 01012344321",
+					"01043214321","01043211234","01012345678","01087654321"}};
+						
+		for(String[] k :list) {
+			for(String l :k) {
+			System.out.println(l);
+		}
+		}
+	}
+	
+	public void call() {
+		
+	}
+}

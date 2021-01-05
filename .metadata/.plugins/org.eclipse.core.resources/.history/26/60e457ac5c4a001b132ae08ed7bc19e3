@@ -1,0 +1,14 @@
+package Java12_30;
+
+public class Coding_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String k = "1234";
+		int K1 =Integer.parseInt(k);
+		System.out.println(K1+1);
+	}
+
+}

@@ -1,0 +1,16 @@
+package Java12_30;
+
+public class Car extends color{
+
+	String wheel;
+	String tire;
+	String Engine;
+	String color;
+	int cc;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package ClassArray;
+import java.util.Scanner;
+public class C {
+
+	
+	public void Scan(B b) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("문자를 입력해주세요");
+		b.str= sc.nextLine();
+		System.out.println("숫자를 입력해주세요");
+		b.c = sc.nextInt();
+		
+	}
+}

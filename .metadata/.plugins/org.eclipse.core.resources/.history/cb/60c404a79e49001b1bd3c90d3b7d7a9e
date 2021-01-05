@@ -1,0 +1,21 @@
+package Java12_29;
+
+public class User_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		User us = new User();
+		User_scan scan = new User_scan();
+		
+		System.out.println("아이디를 입력해 주세요. (2~6자리)");
+		
+		
+		us.setID(scan.scan());
+		
+		
+	}
+	
+	
+
+}

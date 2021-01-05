@@ -1,0 +1,33 @@
+package Codingtest;
+import java.util.Scanner;
+public class Remote  {
+
+	
+	public void ch(int chanul) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("채널번호를 선택해주세요");
+		 chanul = sc.nextInt();
+		 System.out.println(chanul+"채널로 이동되었습니다.");
+		 
+		
+	}
+	
+	public void vol(int volum) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("볼륨선택입니다 1. + 2. -");
+		int a = sc.nextInt();
+		switch(a) {
+		case 1:
+			System.out.println("볼륨이 올라갔습니다");
+			volum = volum+1;
+			if(volum>=40) {
+				System.out.println("더이상 볼륨을 올릴 수 없습니다.");
+				volum=40;
+			}
+			break;
+		case 2:
+			
+			break;
+		}
+	}
+}

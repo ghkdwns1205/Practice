@@ -1,0 +1,12 @@
+package Java12_30;
+
+public class Smartphone {
+	
+	String name = "";
+public Smartphone(String name2) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	
+}

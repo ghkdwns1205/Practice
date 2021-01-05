@@ -1,0 +1,8 @@
+package Java01_05;
+
+public class Smart_Book_List {
+
+	Smart_Book[] Smb;
+	int count;
+	
+}

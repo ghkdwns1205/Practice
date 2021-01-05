@@ -1,0 +1,16 @@
+package Java12_31;
+
+public class C extends B {
+
+
+	 @Override
+	public void setA(String a) {
+		a= "987654";	
+		 
+			System.out.println("111111");
+			
+			System.out.println(a+"소문자");
+		
+		}
+	
+}

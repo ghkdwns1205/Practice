@@ -1,0 +1,13 @@
+package ClassArray;
+import java.util.Scanner;
+public class C {
+
+	
+	public void Scan(B b) {
+		Scanner sc = new Scanner(System.in);
+		
+		b.str= sc.nextLine();
+		
+		b.c = sc.nextInt();
+	}
+}

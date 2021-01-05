@@ -1,0 +1,14 @@
+package Java12_30;
+
+public class Car extends color{
+
+	String wheel;
+	String tire;
+	String Engine;
+	String color;
+	int cc;
+	
+	public void run() {
+		System.out.println(color);
+	}
+}

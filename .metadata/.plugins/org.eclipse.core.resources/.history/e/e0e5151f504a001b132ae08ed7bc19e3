@@ -1,0 +1,21 @@
+package Java12_30;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int rock = 1;
+		int scissors = 2;
+		int paper = 3;
+		
+		String person1 = "철수";
+		String person2 = "영희";
+		String person3 = "민수";
+		
+		System.out.println("철수,영희,민수가 가위바위보를 합니다.");
+		
+		
+	}
+
+}

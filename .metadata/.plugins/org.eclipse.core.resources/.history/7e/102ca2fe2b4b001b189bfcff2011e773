@@ -1,0 +1,5 @@
+package Java12_31;
+
+public class C extend B {
+
+}

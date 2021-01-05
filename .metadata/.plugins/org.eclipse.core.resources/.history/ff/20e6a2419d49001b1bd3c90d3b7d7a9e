@@ -1,0 +1,8 @@
+package Java12_29;
+import java.util.Scanner;
+
+public class Scanner {
+
+	
+	Scanner sc = new Scanner(System.in);
+}

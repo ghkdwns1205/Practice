@@ -1,0 +1,9 @@
+package ClassArray;
+import java.util.Scanner;
+public class C {
+
+	
+	public void Scan() {
+		Scanner sc = new Scanner(System.in);
+	}
+}

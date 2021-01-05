@@ -1,0 +1,12 @@
+package Codingtest;
+
+public class Smart {
+
+	
+	public void telelist() {
+		String list[] = {"1. 어머니","2. 아버지","3. 동생","4. 여자친구","5. 친구1","6. 친구2"};
+		for(String k :list) {
+			System.out.println(k);
+		}
+	}
+}

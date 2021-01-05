@@ -1,0 +1,23 @@
+package Java12_30;
+
+public class Car extends color{
+
+	String wheel;
+	String tire;
+	String Engine;
+	String brand;
+	int cc;
+	public Car(String wheel, String brand) {
+		this.wheel=wheel;
+		this.brand=brand;
+	}
+	
+	public void run() {
+		
+		System.out.println(color_ch+"차가 달립니다.");
+	}
+	
+	public void wheel() {
+		
+	}
+}

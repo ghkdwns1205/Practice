@@ -1,0 +1,12 @@
+package Codingtest;
+import java.util.Scanner;
+public class Remote extends coding_4() {
+
+	
+	public void ch() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("채널번호를 선택해주세요");
+		int cha = sc.nextInt();
+		
+	}
+}

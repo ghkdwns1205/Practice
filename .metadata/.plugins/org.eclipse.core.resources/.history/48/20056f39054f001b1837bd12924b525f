@@ -1,0 +1,14 @@
+package Java01_05;
+import java.util.Scanner;
+public class Smartphon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Smart_Book_List sbl = new Smart_Book_List();
+		Smart_Book sb = new Smart_Book();
+		
+		sbl.Smb = new Smart_Book[3];
+	}
+
+}

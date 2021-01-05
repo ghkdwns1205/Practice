@@ -1,0 +1,10 @@
+package Codingtest;
+
+public class Movie_info extends Movie {
+
+	public Movie_info() {
+		movie_name = "martion";
+		movie_RunTime = "144분";
+		
+	}
+}

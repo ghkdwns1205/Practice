@@ -1,0 +1,14 @@
+package Java12_30;
+
+public class Coding_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String name = "이현수";
+		Smartphone sp = new Smartphone();
+		
+	}
+
+}

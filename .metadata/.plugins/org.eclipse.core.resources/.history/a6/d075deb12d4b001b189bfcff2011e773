@@ -1,0 +1,13 @@
+package Java12_31;
+
+public class C extends B {
+
+
+	 @Override
+	 public void setA(String a) {
+		a= "98765";	
+		 A = a;
+			System.out.println("111111");
+		}
+	
+}

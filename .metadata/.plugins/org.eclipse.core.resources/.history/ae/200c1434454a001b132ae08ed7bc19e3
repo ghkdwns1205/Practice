@@ -1,0 +1,39 @@
+package Java12_30;
+
+import java.util.Scanner;
+
+public class color {
+	 String [] color = {"black","red","pink","yellow","white","blue"};
+	
+	
+
+	public String color_choice(String color[]) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("색상을 선택해주세요");
+		System.out.println("1. 검정색 2. 빨간색 3. 분홍색 4. 노란색 5.흰색");
+		int color_choice = sc.nextInt();
+		switch(color_choice) {
+		case 1 :
+			System.out.println("검정색을 선택하셨습니다");
+			String color_ch = this.color[0];
+			return color_ch;
+			
+		case 2 :
+			System.out.println("빨간색을 선택하셨습니다");
+			String color_ch1 = this.color[1];
+			return color_ch1;
+		case 3 :
+			
+			break;
+		case 4 :
+			
+			break;
+		case 5 :
+			
+			break;
+		}
+		
+		
+	}
+}

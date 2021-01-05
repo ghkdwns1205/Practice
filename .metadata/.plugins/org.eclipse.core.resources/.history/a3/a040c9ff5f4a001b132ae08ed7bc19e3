@@ -1,0 +1,23 @@
+package Java12_30;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Coding_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	Scanner sc = new Scanner(System.in);
+	String str ="1234";
+	int len = str.length();
+		String str_s[] = new String[len];
+		
+		for(int j = 0; j<len; j++) {
+			str_s[j] = str.substring(j,j+1);
+		}
+		System.out.println(Arrays.toString(str_s));
+	}
+
+}
